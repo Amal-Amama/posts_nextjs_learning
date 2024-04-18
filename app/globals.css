@@ -24,10 +24,45 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  height: 100vh;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+.main_dev {
+  text-align: center;
+}
+.nav_style {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.article_layout {
+  margin-top: 50px;
+  background: blue;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin: 2rem 20rem 0rem;
+}
+.posts_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.post_item {
+  width: 70%;
+  padding: 10px;
+  background-color: chocolate;
+  color: black;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 15%;
 }
